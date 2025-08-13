@@ -85,7 +85,7 @@
 			/* Hero */
 			.hero {
 				position: relative; min-height: 88vh; display: grid; place-items: center; text-align: center; isolation: isolate;
-				background-image: url('images/fundo.png');
+				background-image: url('fundo.png');
 				background-size: cover; background-position: center; background-repeat: no-repeat;
 			}
 			.hero::before { content: ""; position: absolute; inset: 0;
