@@ -1,0 +1,106 @@
+@import url('indexstyle.css');
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0056a4; /* fundo azul escuro */
+        }
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: #d9781f; /* vermelho */
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 30px 20px;
+            box-sizing: border-box;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .admin {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .admin span {
+            margin-left: 10px;
+        }
+        .sidebar button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 20px 0;
+            cursor: pointer;
+            text-align: left;
+            padding: 0;
+        }
+        .sidebar button:hover {
+            text-decoration: underline;
+        }
+        
+        .content {
+            margin-left: 260px;
+            padding: 60px;
+            text-align: center;
+            color: white;
+        }
+        .content h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        
+        .search-box {
+            background: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 15px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .search-box input[type="text"] {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 18px;
+        }
+        .search-box button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #0056a4;
+        }
+ 
+        .form-card {
+            background: rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 800px;
+            margin: 40px auto;
+            color: white;
+        }
+        .form-row { margin-bottom: 12px; text-align: left; }
+        .form-row label { display:block; margin-bottom:6px; font-weight:bold; }
+        .form-row input[type="text"], .form-row textarea { width:100%; padding:8px; border-radius:8px; border: none; }
+        .small { font-size:14px; color:#ddd; }
+        .ingredients-list { margin-bottom:12px; }
+        .ingredient-item { display:flex; gap:8px; margin-bottom:8px; }
+        .ingredient-item input { flex:1 }
+        .btn { background:#d9781f;; color:white; border:none; padding:10px 14px; border-radius:8px; cursor:pointer; font-weight:bold }
+        .btn.secondary { background:transparent; border:1px solid #fff }
+        .preview-img { max-width:200px; margin-top:8px; border-radius:8px }
+        .message { text-align:center; margin-top:12px }
